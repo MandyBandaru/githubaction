@@ -1,4 +1,4 @@
-name: First Work flow
+name: Simple Workflow
 
 on: workflow_dispatch
   # $SELECTION_PLACEHOLDER$
@@ -11,4 +11,7 @@ jobs:
 
     steps:
     - name: Print Hello World
-      run: echo "Hello, World!"
+      run: |
+        echo "Hello, World!"
+        echo " Ram One tera byte"
+        echo "Memory one Zeta byte"
